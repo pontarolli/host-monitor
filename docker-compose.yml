@@ -20,6 +20,8 @@ services:
   telegraf:
     image: telegraf:latest
     container_name: telegraf
+    ports:
+      - "9273:9273"
     depends_on:
       - influxdb
     environment:
