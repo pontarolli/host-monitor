@@ -15,3 +15,7 @@ docker compose up
 http://<ip-do-host>:9273/metrics    (Telegraf)  
 http://<ip-do-host>:8086            (Influxdb)  
 http://<ip-do-host>:3000            (Grafana)  
+
+## Examples
+Telegraf response from port 9273    (telegraf-metrics.txt)
+Grafana dashboard querys            (grafana-querys.txt)

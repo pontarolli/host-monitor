@@ -1,0 +1,9 @@
+from(bucket: "telegraf")
+  |> range(start: -10s)  // Seleciona os dados dos últimos 10 segundos
+  |> filter(fn: (r) => r._measurement == "cpu" and r._field == "usage_user" and r.cpu == "cpu-total")
+  |> last()  // Pega o valor mais recente
+
+from(bucket: "telegraf")
+  |> range(start: -10s)  // Seleciona os dados dos últimos 10 segundos
+  |> filter(fn: (r) => r._measurement == "mem" and r._field == "used_percent")
+  |> last()  // Pega o valor mais recente
