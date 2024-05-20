@@ -1,0 +1,619 @@
+# HELP cpu_usage_guest Telegraf collected metric
+# TYPE cpu_usage_guest gauge
+cpu_usage_guest{cpu="cpu-total",host="dbb723d0e9e4"} 0
+cpu_usage_guest{cpu="cpu0",host="dbb723d0e9e4"} 0
+cpu_usage_guest{cpu="cpu1",host="dbb723d0e9e4"} 0
+cpu_usage_guest{cpu="cpu2",host="dbb723d0e9e4"} 0
+cpu_usage_guest{cpu="cpu3",host="dbb723d0e9e4"} 0
+# HELP cpu_usage_guest_nice Telegraf collected metric
+# TYPE cpu_usage_guest_nice gauge
+cpu_usage_guest_nice{cpu="cpu-total",host="dbb723d0e9e4"} 0
+cpu_usage_guest_nice{cpu="cpu0",host="dbb723d0e9e4"} 0
+cpu_usage_guest_nice{cpu="cpu1",host="dbb723d0e9e4"} 0
+cpu_usage_guest_nice{cpu="cpu2",host="dbb723d0e9e4"} 0
+cpu_usage_guest_nice{cpu="cpu3",host="dbb723d0e9e4"} 0
+# HELP cpu_usage_idle Telegraf collected metric
+# TYPE cpu_usage_idle gauge
+cpu_usage_idle{cpu="cpu-total",host="dbb723d0e9e4"} 98.77100576874841
+cpu_usage_idle{cpu="cpu0",host="dbb723d0e9e4"} 99.09638554216865
+cpu_usage_idle{cpu="cpu1",host="dbb723d0e9e4"} 98.8933601609658
+cpu_usage_idle{cpu="cpu2",host="dbb723d0e9e4"} 98.49246231155787
+cpu_usage_idle{cpu="cpu3",host="dbb723d0e9e4"} 98.99699097291867
+# HELP cpu_usage_iowait Telegraf collected metric
+# TYPE cpu_usage_iowait gauge
+cpu_usage_iowait{cpu="cpu-total",host="dbb723d0e9e4"} 0.025081514923496386
+cpu_usage_iowait{cpu="cpu0",host="dbb723d0e9e4"} 0
+cpu_usage_iowait{cpu="cpu1",host="dbb723d0e9e4"} 0
+cpu_usage_iowait{cpu="cpu2",host="dbb723d0e9e4"} 0.1005025125628119
+cpu_usage_iowait{cpu="cpu3",host="dbb723d0e9e4"} 0
+# HELP cpu_usage_irq Telegraf collected metric
+# TYPE cpu_usage_irq gauge
+cpu_usage_irq{cpu="cpu-total",host="dbb723d0e9e4"} 0
+cpu_usage_irq{cpu="cpu0",host="dbb723d0e9e4"} 0
+cpu_usage_irq{cpu="cpu1",host="dbb723d0e9e4"} 0
+cpu_usage_irq{cpu="cpu2",host="dbb723d0e9e4"} 0
+cpu_usage_irq{cpu="cpu3",host="dbb723d0e9e4"} 0
+# HELP cpu_usage_nice Telegraf collected metric
+# TYPE cpu_usage_nice gauge
+cpu_usage_nice{cpu="cpu-total",host="dbb723d0e9e4"} 0
+cpu_usage_nice{cpu="cpu0",host="dbb723d0e9e4"} 0
+cpu_usage_nice{cpu="cpu1",host="dbb723d0e9e4"} 0
+cpu_usage_nice{cpu="cpu2",host="dbb723d0e9e4"} 0
+cpu_usage_nice{cpu="cpu3",host="dbb723d0e9e4"} 0
+# HELP cpu_usage_softirq Telegraf collected metric
+# TYPE cpu_usage_softirq gauge
+cpu_usage_softirq{cpu="cpu-total",host="dbb723d0e9e4"} 0.07524454477050413
+cpu_usage_softirq{cpu="cpu0",host="dbb723d0e9e4"} 0
+cpu_usage_softirq{cpu="cpu1",host="dbb723d0e9e4"} 0
+cpu_usage_softirq{cpu="cpu2",host="dbb723d0e9e4"} 0.10050251256281405
+cpu_usage_softirq{cpu="cpu3",host="dbb723d0e9e4"} 0
+# HELP cpu_usage_steal Telegraf collected metric
+# TYPE cpu_usage_steal gauge
+cpu_usage_steal{cpu="cpu-total",host="dbb723d0e9e4"} 0
+cpu_usage_steal{cpu="cpu0",host="dbb723d0e9e4"} 0
+cpu_usage_steal{cpu="cpu1",host="dbb723d0e9e4"} 0
+cpu_usage_steal{cpu="cpu2",host="dbb723d0e9e4"} 0
+cpu_usage_steal{cpu="cpu3",host="dbb723d0e9e4"} 0
+# HELP cpu_usage_system Telegraf collected metric
+# TYPE cpu_usage_system gauge
+cpu_usage_system{cpu="cpu-total",host="dbb723d0e9e4"} 0.4013042387760224
+cpu_usage_system{cpu="cpu0",host="dbb723d0e9e4"} 0.4016064257028113
+cpu_usage_system{cpu="cpu1",host="dbb723d0e9e4"} 0.5030181086519098
+cpu_usage_system{cpu="cpu2",host="dbb723d0e9e4"} 0.4020100502512565
+cpu_usage_system{cpu="cpu3",host="dbb723d0e9e4"} 0.2006018054162531
+# HELP cpu_usage_user Telegraf collected metric
+# TYPE cpu_usage_user gauge
+cpu_usage_user{cpu="cpu-total",host="dbb723d0e9e4"} 0.7273639327815378
+cpu_usage_user{cpu="cpu0",host="dbb723d0e9e4"} 0.5020080321285207
+cpu_usage_user{cpu="cpu1",host="dbb723d0e9e4"} 0.6036217303822989
+cpu_usage_user{cpu="cpu2",host="dbb723d0e9e4"} 0.904522613065325
+cpu_usage_user{cpu="cpu3",host="dbb723d0e9e4"} 0.8024072216649947
+# HELP disk_free Telegraf collected metric
+# TYPE disk_free gauge
+disk_free{device="mmcblk0p1",fstype="vfat",host="dbb723d0e9e4",mode="rw",path="/boot"} 2.5532145664e+10
+disk_free{device="mmcblk0p2",fstype="ext4",host="dbb723d0e9e4",mode="rw",path="/"} 2.5532145664e+10
+# HELP disk_inodes_free Telegraf collected metric
+# TYPE disk_inodes_free gauge
+disk_inodes_free{device="mmcblk0p1",fstype="vfat",host="dbb723d0e9e4",mode="rw",path="/boot"} 1.799364e+06
+disk_inodes_free{device="mmcblk0p2",fstype="ext4",host="dbb723d0e9e4",mode="rw",path="/"} 1.799364e+06
+# HELP disk_inodes_total Telegraf collected metric
+# TYPE disk_inodes_total gauge
+disk_inodes_total{device="mmcblk0p1",fstype="vfat",host="dbb723d0e9e4",mode="rw",path="/boot"} 1.888e+06
+disk_inodes_total{device="mmcblk0p2",fstype="ext4",host="dbb723d0e9e4",mode="rw",path="/"} 1.888e+06
+# HELP disk_inodes_used Telegraf collected metric
+# TYPE disk_inodes_used gauge
+disk_inodes_used{device="mmcblk0p1",fstype="vfat",host="dbb723d0e9e4",mode="rw",path="/boot"} 88636
+disk_inodes_used{device="mmcblk0p2",fstype="ext4",host="dbb723d0e9e4",mode="rw",path="/"} 88636
+# HELP disk_inodes_used_percent Telegraf collected metric
+# TYPE disk_inodes_used_percent gauge
+disk_inodes_used_percent{device="mmcblk0p1",fstype="vfat",host="dbb723d0e9e4",mode="rw",path="/boot"} 4.694703389830508
+disk_inodes_used_percent{device="mmcblk0p2",fstype="ext4",host="dbb723d0e9e4",mode="rw",path="/"} 4.694703389830508
+# HELP disk_total Telegraf collected metric
+# TYPE disk_total gauge
+disk_total{device="mmcblk0p1",fstype="vfat",host="dbb723d0e9e4",mode="rw",path="/boot"} 3.1118536704e+10
+disk_total{device="mmcblk0p2",fstype="ext4",host="dbb723d0e9e4",mode="rw",path="/"} 3.1118536704e+10
+# HELP disk_used Telegraf collected metric
+# TYPE disk_used gauge
+disk_used{device="mmcblk0p1",fstype="vfat",host="dbb723d0e9e4",mode="rw",path="/boot"} 4.28746752e+09
+disk_used{device="mmcblk0p2",fstype="ext4",host="dbb723d0e9e4",mode="rw",path="/"} 4.28746752e+09
+# HELP disk_used_percent Telegraf collected metric
+# TYPE disk_used_percent gauge
+disk_used_percent{device="mmcblk0p1",fstype="vfat",host="dbb723d0e9e4",mode="rw",path="/boot"} 14.378011859323788
+disk_used_percent{device="mmcblk0p2",fstype="ext4",host="dbb723d0e9e4",mode="rw",path="/"} 14.378011859323788
+# HELP diskio_io_time Telegraf collected metric
+# TYPE diskio_io_time counter
+diskio_io_time{host="dbb723d0e9e4",name="mmcblk0"} 26188
+diskio_io_time{host="dbb723d0e9e4",name="mmcblk0p1"} 600
+diskio_io_time{host="dbb723d0e9e4",name="mmcblk0p2"} 26036
+# HELP diskio_iops_in_progress Telegraf collected metric
+# TYPE diskio_iops_in_progress counter
+diskio_iops_in_progress{host="dbb723d0e9e4",name="mmcblk0"} 0
+diskio_iops_in_progress{host="dbb723d0e9e4",name="mmcblk0p1"} 0
+diskio_iops_in_progress{host="dbb723d0e9e4",name="mmcblk0p2"} 0
+# HELP diskio_merged_reads Telegraf collected metric
+# TYPE diskio_merged_reads counter
+diskio_merged_reads{host="dbb723d0e9e4",name="mmcblk0"} 2988
+diskio_merged_reads{host="dbb723d0e9e4",name="mmcblk0p1"} 58
+diskio_merged_reads{host="dbb723d0e9e4",name="mmcblk0p2"} 2930
+# HELP diskio_merged_writes Telegraf collected metric
+# TYPE diskio_merged_writes counter
+diskio_merged_writes{host="dbb723d0e9e4",name="mmcblk0"} 935
+diskio_merged_writes{host="dbb723d0e9e4",name="mmcblk0p1"} 0
+diskio_merged_writes{host="dbb723d0e9e4",name="mmcblk0p2"} 935
+# HELP diskio_read_bytes Telegraf collected metric
+# TYPE diskio_read_bytes counter
+diskio_read_bytes{host="dbb723d0e9e4",name="mmcblk0"} 6.8706816e+08
+diskio_read_bytes{host="dbb723d0e9e4",name="mmcblk0p1"} 5.890048e+06
+diskio_read_bytes{host="dbb723d0e9e4",name="mmcblk0p2"} 6.80571904e+08
+# HELP diskio_read_time Telegraf collected metric
+# TYPE diskio_read_time counter
+diskio_read_time{host="dbb723d0e9e4",name="mmcblk0"} 58031
+diskio_read_time{host="dbb723d0e9e4",name="mmcblk0p1"} 547
+diskio_read_time{host="dbb723d0e9e4",name="mmcblk0p2"} 57431
+# HELP diskio_reads Telegraf collected metric
+# TYPE diskio_reads counter
+diskio_reads{host="dbb723d0e9e4",name="mmcblk0"} 10725
+diskio_reads{host="dbb723d0e9e4",name="mmcblk0p1"} 171
+diskio_reads{host="dbb723d0e9e4",name="mmcblk0p2"} 10518
+# HELP diskio_weighted_io_time Telegraf collected metric
+# TYPE diskio_weighted_io_time counter
+diskio_weighted_io_time{host="dbb723d0e9e4",name="mmcblk0"} 172698
+diskio_weighted_io_time{host="dbb723d0e9e4",name="mmcblk0p1"} 614
+diskio_weighted_io_time{host="dbb723d0e9e4",name="mmcblk0p2"} 172031
+# HELP diskio_write_bytes Telegraf collected metric
+# TYPE diskio_write_bytes counter
+diskio_write_bytes{host="dbb723d0e9e4",name="mmcblk0"} 1.7437696e+07
+diskio_write_bytes{host="dbb723d0e9e4",name="mmcblk0p1"} 1024
+diskio_write_bytes{host="dbb723d0e9e4",name="mmcblk0p2"} 1.7436672e+07
+# HELP diskio_write_time Telegraf collected metric
+# TYPE diskio_write_time counter
+diskio_write_time{host="dbb723d0e9e4",name="mmcblk0"} 114666
+diskio_write_time{host="dbb723d0e9e4",name="mmcblk0p1"} 66
+diskio_write_time{host="dbb723d0e9e4",name="mmcblk0p2"} 114600
+# HELP diskio_writes Telegraf collected metric
+# TYPE diskio_writes counter
+diskio_writes{host="dbb723d0e9e4",name="mmcblk0"} 1360
+diskio_writes{host="dbb723d0e9e4",name="mmcblk0p1"} 2
+diskio_writes{host="dbb723d0e9e4",name="mmcblk0p2"} 1358
+# HELP mem_active Telegraf collected metric
+# TYPE mem_active gauge
+mem_active{host="dbb723d0e9e4"} 1.222098944e+09
+# HELP mem_available Telegraf collected metric
+# TYPE mem_available gauge
+mem_available{host="dbb723d0e9e4"} 7.390773248e+09
+# HELP mem_available_percent Telegraf collected metric
+# TYPE mem_available_percent gauge
+mem_available_percent{host="dbb723d0e9e4"} 90.22152020572483
+# HELP mem_buffered Telegraf collected metric
+# TYPE mem_buffered gauge
+mem_buffered{host="dbb723d0e9e4"} 2.2822912e+07
+# HELP mem_cached Telegraf collected metric
+# TYPE mem_cached gauge
+mem_cached{host="dbb723d0e9e4"} 7.09963776e+08
+# HELP mem_commit_limit Telegraf collected metric
+# TYPE mem_commit_limit gauge
+mem_commit_limit{host="dbb723d0e9e4"} 4.2007552e+09
+# HELP mem_committed_as Telegraf collected metric
+# TYPE mem_committed_as gauge
+mem_committed_as{host="dbb723d0e9e4"} 2.664259584e+09
+# HELP mem_dirty Telegraf collected metric
+# TYPE mem_dirty gauge
+mem_dirty{host="dbb723d0e9e4"} 0
+# HELP mem_free Telegraf collected metric
+# TYPE mem_free gauge
+mem_free{host="dbb723d0e9e4"} 6.782713856e+09
+# HELP mem_high_free Telegraf collected metric
+# TYPE mem_high_free gauge
+mem_high_free{host="dbb723d0e9e4"} 0
+# HELP mem_high_total Telegraf collected metric
+# TYPE mem_high_total gauge
+mem_high_total{host="dbb723d0e9e4"} 0
+# HELP mem_huge_page_size Telegraf collected metric
+# TYPE mem_huge_page_size gauge
+mem_huge_page_size{host="dbb723d0e9e4"} 0
+# HELP mem_huge_pages_free Telegraf collected metric
+# TYPE mem_huge_pages_free gauge
+mem_huge_pages_free{host="dbb723d0e9e4"} 0
+# HELP mem_huge_pages_total Telegraf collected metric
+# TYPE mem_huge_pages_total gauge
+mem_huge_pages_total{host="dbb723d0e9e4"} 0
+# HELP mem_inactive Telegraf collected metric
+# TYPE mem_inactive gauge
+mem_inactive{host="dbb723d0e9e4"} 6.3361024e+07
+# HELP mem_low_free Telegraf collected metric
+# TYPE mem_low_free gauge
+mem_low_free{host="dbb723d0e9e4"} 0
+# HELP mem_low_total Telegraf collected metric
+# TYPE mem_low_total gauge
+mem_low_total{host="dbb723d0e9e4"} 0
+# HELP mem_mapped Telegraf collected metric
+# TYPE mem_mapped gauge
+mem_mapped{host="dbb723d0e9e4"} 4.75410432e+08
+# HELP mem_page_tables Telegraf collected metric
+# TYPE mem_page_tables gauge
+mem_page_tables{host="dbb723d0e9e4"} 7.897088e+06
+# HELP mem_shared Telegraf collected metric
+# TYPE mem_shared gauge
+mem_shared{host="dbb723d0e9e4"} 1.380352e+06
+# HELP mem_slab Telegraf collected metric
+# TYPE mem_slab gauge
+mem_slab{host="dbb723d0e9e4"} 7.3936896e+07
+# HELP mem_sreclaimable Telegraf collected metric
+# TYPE mem_sreclaimable gauge
+mem_sreclaimable{host="dbb723d0e9e4"} 4.1332736e+07
+# HELP mem_sunreclaim Telegraf collected metric
+# TYPE mem_sunreclaim gauge
+mem_sunreclaim{host="dbb723d0e9e4"} 3.260416e+07
+# HELP mem_swap_cached Telegraf collected metric
+# TYPE mem_swap_cached gauge
+mem_swap_cached{host="dbb723d0e9e4"} 0
+# HELP mem_swap_free Telegraf collected metric
+# TYPE mem_swap_free gauge
+mem_swap_free{host="dbb723d0e9e4"} 1.04853504e+08
+# HELP mem_swap_total Telegraf collected metric
+# TYPE mem_swap_total gauge
+mem_swap_total{host="dbb723d0e9e4"} 1.04853504e+08
+# HELP mem_total Telegraf collected metric
+# TYPE mem_total gauge
+mem_total{host="dbb723d0e9e4"} 8.191807488e+09
+# HELP mem_used Telegraf collected metric
+# TYPE mem_used gauge
+mem_used{host="dbb723d0e9e4"} 6.76306944e+08
+# HELP mem_used_percent Telegraf collected metric
+# TYPE mem_used_percent gauge
+mem_used_percent{host="dbb723d0e9e4"} 8.255894013509318
+# HELP mem_vmalloc_chunk Telegraf collected metric
+# TYPE mem_vmalloc_chunk gauge
+mem_vmalloc_chunk{host="dbb723d0e9e4"} 0
+# HELP mem_vmalloc_total Telegraf collected metric
+# TYPE mem_vmalloc_total gauge
+mem_vmalloc_total{host="dbb723d0e9e4"} 2.65885319168e+11
+# HELP mem_vmalloc_used Telegraf collected metric
+# TYPE mem_vmalloc_used gauge
+mem_vmalloc_used{host="dbb723d0e9e4"} 1.5183872e+07
+# HELP mem_write_back Telegraf collected metric
+# TYPE mem_write_back gauge
+mem_write_back{host="dbb723d0e9e4"} 0
+# HELP mem_write_back_tmp Telegraf collected metric
+# TYPE mem_write_back_tmp gauge
+mem_write_back_tmp{host="dbb723d0e9e4"} 0
+# HELP net_bytes_recv Telegraf collected metric
+# TYPE net_bytes_recv counter
+net_bytes_recv{host="dbb723d0e9e4",interface="eth0"} 18997
+# HELP net_bytes_sent Telegraf collected metric
+# TYPE net_bytes_sent counter
+net_bytes_sent{host="dbb723d0e9e4",interface="eth0"} 30229
+# HELP net_drop_in Telegraf collected metric
+# TYPE net_drop_in counter
+net_drop_in{host="dbb723d0e9e4",interface="eth0"} 1
+# HELP net_drop_out Telegraf collected metric
+# TYPE net_drop_out counter
+net_drop_out{host="dbb723d0e9e4",interface="eth0"} 0
+# HELP net_err_in Telegraf collected metric
+# TYPE net_err_in counter
+net_err_in{host="dbb723d0e9e4",interface="eth0"} 0
+# HELP net_err_out Telegraf collected metric
+# TYPE net_err_out counter
+net_err_out{host="dbb723d0e9e4",interface="eth0"} 0
+# HELP net_icmp_inaddrmaskreps Telegraf collected metric
+# TYPE net_icmp_inaddrmaskreps untyped
+net_icmp_inaddrmaskreps{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_inaddrmasks Telegraf collected metric
+# TYPE net_icmp_inaddrmasks untyped
+net_icmp_inaddrmasks{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_incsumerrors Telegraf collected metric
+# TYPE net_icmp_incsumerrors untyped
+net_icmp_incsumerrors{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_indestunreachs Telegraf collected metric
+# TYPE net_icmp_indestunreachs untyped
+net_icmp_indestunreachs{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_inechoreps Telegraf collected metric
+# TYPE net_icmp_inechoreps untyped
+net_icmp_inechoreps{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_inechos Telegraf collected metric
+# TYPE net_icmp_inechos untyped
+net_icmp_inechos{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_inerrors Telegraf collected metric
+# TYPE net_icmp_inerrors untyped
+net_icmp_inerrors{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_inmsgs Telegraf collected metric
+# TYPE net_icmp_inmsgs untyped
+net_icmp_inmsgs{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_inparmprobs Telegraf collected metric
+# TYPE net_icmp_inparmprobs untyped
+net_icmp_inparmprobs{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_inredirects Telegraf collected metric
+# TYPE net_icmp_inredirects untyped
+net_icmp_inredirects{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_insrcquenchs Telegraf collected metric
+# TYPE net_icmp_insrcquenchs untyped
+net_icmp_insrcquenchs{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_intimeexcds Telegraf collected metric
+# TYPE net_icmp_intimeexcds untyped
+net_icmp_intimeexcds{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_intimestampreps Telegraf collected metric
+# TYPE net_icmp_intimestampreps untyped
+net_icmp_intimestampreps{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_intimestamps Telegraf collected metric
+# TYPE net_icmp_intimestamps untyped
+net_icmp_intimestamps{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_outaddrmaskreps Telegraf collected metric
+# TYPE net_icmp_outaddrmaskreps untyped
+net_icmp_outaddrmaskreps{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_outaddrmasks Telegraf collected metric
+# TYPE net_icmp_outaddrmasks untyped
+net_icmp_outaddrmasks{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_outdestunreachs Telegraf collected metric
+# TYPE net_icmp_outdestunreachs untyped
+net_icmp_outdestunreachs{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_outechoreps Telegraf collected metric
+# TYPE net_icmp_outechoreps untyped
+net_icmp_outechoreps{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_outechos Telegraf collected metric
+# TYPE net_icmp_outechos untyped
+net_icmp_outechos{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_outerrors Telegraf collected metric
+# TYPE net_icmp_outerrors untyped
+net_icmp_outerrors{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_outmsgs Telegraf collected metric
+# TYPE net_icmp_outmsgs untyped
+net_icmp_outmsgs{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_outparmprobs Telegraf collected metric
+# TYPE net_icmp_outparmprobs untyped
+net_icmp_outparmprobs{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_outredirects Telegraf collected metric
+# TYPE net_icmp_outredirects untyped
+net_icmp_outredirects{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_outsrcquenchs Telegraf collected metric
+# TYPE net_icmp_outsrcquenchs untyped
+net_icmp_outsrcquenchs{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_outtimeexcds Telegraf collected metric
+# TYPE net_icmp_outtimeexcds untyped
+net_icmp_outtimeexcds{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_outtimestampreps Telegraf collected metric
+# TYPE net_icmp_outtimestampreps untyped
+net_icmp_outtimestampreps{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_icmp_outtimestamps Telegraf collected metric
+# TYPE net_icmp_outtimestamps untyped
+net_icmp_outtimestamps{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_ip_defaultttl Telegraf collected metric
+# TYPE net_ip_defaultttl untyped
+net_ip_defaultttl{host="dbb723d0e9e4",interface="all"} 64
+# HELP net_ip_forwarding Telegraf collected metric
+# TYPE net_ip_forwarding untyped
+net_ip_forwarding{host="dbb723d0e9e4",interface="all"} 1
+# HELP net_ip_forwdatagrams Telegraf collected metric
+# TYPE net_ip_forwdatagrams untyped
+net_ip_forwdatagrams{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_ip_fragcreates Telegraf collected metric
+# TYPE net_ip_fragcreates untyped
+net_ip_fragcreates{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_ip_fragfails Telegraf collected metric
+# TYPE net_ip_fragfails untyped
+net_ip_fragfails{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_ip_fragoks Telegraf collected metric
+# TYPE net_ip_fragoks untyped
+net_ip_fragoks{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_ip_inaddrerrors Telegraf collected metric
+# TYPE net_ip_inaddrerrors untyped
+net_ip_inaddrerrors{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_ip_indelivers Telegraf collected metric
+# TYPE net_ip_indelivers untyped
+net_ip_indelivers{host="dbb723d0e9e4",interface="all"} 88
+# HELP net_ip_indiscards Telegraf collected metric
+# TYPE net_ip_indiscards untyped
+net_ip_indiscards{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_ip_inhdrerrors Telegraf collected metric
+# TYPE net_ip_inhdrerrors untyped
+net_ip_inhdrerrors{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_ip_inreceives Telegraf collected metric
+# TYPE net_ip_inreceives untyped
+net_ip_inreceives{host="dbb723d0e9e4",interface="all"} 105
+# HELP net_ip_inunknownprotos Telegraf collected metric
+# TYPE net_ip_inunknownprotos untyped
+net_ip_inunknownprotos{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_ip_outdiscards Telegraf collected metric
+# TYPE net_ip_outdiscards untyped
+net_ip_outdiscards{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_ip_outnoroutes Telegraf collected metric
+# TYPE net_ip_outnoroutes untyped
+net_ip_outnoroutes{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_ip_outrequests Telegraf collected metric
+# TYPE net_ip_outrequests untyped
+net_ip_outrequests{host="dbb723d0e9e4",interface="all"} 127
+# HELP net_ip_reasmfails Telegraf collected metric
+# TYPE net_ip_reasmfails untyped
+net_ip_reasmfails{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_ip_reasmoks Telegraf collected metric
+# TYPE net_ip_reasmoks untyped
+net_ip_reasmoks{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_ip_reasmreqds Telegraf collected metric
+# TYPE net_ip_reasmreqds untyped
+net_ip_reasmreqds{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_ip_reasmtimeout Telegraf collected metric
+# TYPE net_ip_reasmtimeout untyped
+net_ip_reasmtimeout{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_packets_recv Telegraf collected metric
+# TYPE net_packets_recv counter
+net_packets_recv{host="dbb723d0e9e4",interface="eth0"} 164
+# HELP net_packets_sent Telegraf collected metric
+# TYPE net_packets_sent counter
+net_packets_sent{host="dbb723d0e9e4",interface="eth0"} 129
+# HELP net_speed Telegraf collected metric
+# TYPE net_speed counter
+net_speed{host="dbb723d0e9e4",interface="eth0"} -1
+# HELP net_tcp_activeopens Telegraf collected metric
+# TYPE net_tcp_activeopens untyped
+net_tcp_activeopens{host="dbb723d0e9e4",interface="all"} 1
+# HELP net_tcp_attemptfails Telegraf collected metric
+# TYPE net_tcp_attemptfails untyped
+net_tcp_attemptfails{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_tcp_currestab Telegraf collected metric
+# TYPE net_tcp_currestab untyped
+net_tcp_currestab{host="dbb723d0e9e4",interface="all"} 1
+# HELP net_tcp_estabresets Telegraf collected metric
+# TYPE net_tcp_estabresets untyped
+net_tcp_estabresets{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_tcp_incsumerrors Telegraf collected metric
+# TYPE net_tcp_incsumerrors untyped
+net_tcp_incsumerrors{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_tcp_inerrs Telegraf collected metric
+# TYPE net_tcp_inerrs untyped
+net_tcp_inerrs{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_tcp_insegs Telegraf collected metric
+# TYPE net_tcp_insegs untyped
+net_tcp_insegs{host="dbb723d0e9e4",interface="all"} 79
+# HELP net_tcp_maxconn Telegraf collected metric
+# TYPE net_tcp_maxconn untyped
+net_tcp_maxconn{host="dbb723d0e9e4",interface="all"} -1
+# HELP net_tcp_outrsts Telegraf collected metric
+# TYPE net_tcp_outrsts untyped
+net_tcp_outrsts{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_tcp_outsegs Telegraf collected metric
+# TYPE net_tcp_outsegs untyped
+net_tcp_outsegs{host="dbb723d0e9e4",interface="all"} 121
+# HELP net_tcp_passiveopens Telegraf collected metric
+# TYPE net_tcp_passiveopens untyped
+net_tcp_passiveopens{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_tcp_retranssegs Telegraf collected metric
+# TYPE net_tcp_retranssegs untyped
+net_tcp_retranssegs{host="dbb723d0e9e4",interface="all"} 2
+# HELP net_tcp_rtoalgorithm Telegraf collected metric
+# TYPE net_tcp_rtoalgorithm untyped
+net_tcp_rtoalgorithm{host="dbb723d0e9e4",interface="all"} 1
+# HELP net_tcp_rtomax Telegraf collected metric
+# TYPE net_tcp_rtomax untyped
+net_tcp_rtomax{host="dbb723d0e9e4",interface="all"} 120000
+# HELP net_tcp_rtomin Telegraf collected metric
+# TYPE net_tcp_rtomin untyped
+net_tcp_rtomin{host="dbb723d0e9e4",interface="all"} 200
+# HELP net_udp_ignoredmulti Telegraf collected metric
+# TYPE net_udp_ignoredmulti untyped
+net_udp_ignoredmulti{host="dbb723d0e9e4",interface="all"} 5
+# HELP net_udp_incsumerrors Telegraf collected metric
+# TYPE net_udp_incsumerrors untyped
+net_udp_incsumerrors{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_udp_indatagrams Telegraf collected metric
+# TYPE net_udp_indatagrams untyped
+net_udp_indatagrams{host="dbb723d0e9e4",interface="all"} 4
+# HELP net_udp_inerrors Telegraf collected metric
+# TYPE net_udp_inerrors untyped
+net_udp_inerrors{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_udp_memerrors Telegraf collected metric
+# TYPE net_udp_memerrors untyped
+net_udp_memerrors{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_udp_noports Telegraf collected metric
+# TYPE net_udp_noports untyped
+net_udp_noports{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_udp_outdatagrams Telegraf collected metric
+# TYPE net_udp_outdatagrams untyped
+net_udp_outdatagrams{host="dbb723d0e9e4",interface="all"} 4
+# HELP net_udp_rcvbuferrors Telegraf collected metric
+# TYPE net_udp_rcvbuferrors untyped
+net_udp_rcvbuferrors{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_udp_sndbuferrors Telegraf collected metric
+# TYPE net_udp_sndbuferrors untyped
+net_udp_sndbuferrors{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_udplite_ignoredmulti Telegraf collected metric
+# TYPE net_udplite_ignoredmulti untyped
+net_udplite_ignoredmulti{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_udplite_incsumerrors Telegraf collected metric
+# TYPE net_udplite_incsumerrors untyped
+net_udplite_incsumerrors{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_udplite_indatagrams Telegraf collected metric
+# TYPE net_udplite_indatagrams untyped
+net_udplite_indatagrams{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_udplite_inerrors Telegraf collected metric
+# TYPE net_udplite_inerrors untyped
+net_udplite_inerrors{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_udplite_memerrors Telegraf collected metric
+# TYPE net_udplite_memerrors untyped
+net_udplite_memerrors{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_udplite_noports Telegraf collected metric
+# TYPE net_udplite_noports untyped
+net_udplite_noports{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_udplite_outdatagrams Telegraf collected metric
+# TYPE net_udplite_outdatagrams untyped
+net_udplite_outdatagrams{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_udplite_rcvbuferrors Telegraf collected metric
+# TYPE net_udplite_rcvbuferrors untyped
+net_udplite_rcvbuferrors{host="dbb723d0e9e4",interface="all"} 0
+# HELP net_udplite_sndbuferrors Telegraf collected metric
+# TYPE net_udplite_sndbuferrors untyped
+net_udplite_sndbuferrors{host="dbb723d0e9e4",interface="all"} 0
+# HELP netstat_tcp_close Telegraf collected metric
+# TYPE netstat_tcp_close untyped
+netstat_tcp_close{host="dbb723d0e9e4"} 0
+# HELP netstat_tcp_close_wait Telegraf collected metric
+# TYPE netstat_tcp_close_wait untyped
+netstat_tcp_close_wait{host="dbb723d0e9e4"} 0
+# HELP netstat_tcp_closing Telegraf collected metric
+# TYPE netstat_tcp_closing untyped
+netstat_tcp_closing{host="dbb723d0e9e4"} 0
+# HELP netstat_tcp_established Telegraf collected metric
+# TYPE netstat_tcp_established untyped
+netstat_tcp_established{host="dbb723d0e9e4"} 1
+# HELP netstat_tcp_fin_wait1 Telegraf collected metric
+# TYPE netstat_tcp_fin_wait1 untyped
+netstat_tcp_fin_wait1{host="dbb723d0e9e4"} 0
+# HELP netstat_tcp_fin_wait2 Telegraf collected metric
+# TYPE netstat_tcp_fin_wait2 untyped
+netstat_tcp_fin_wait2{host="dbb723d0e9e4"} 0
+# HELP netstat_tcp_last_ack Telegraf collected metric
+# TYPE netstat_tcp_last_ack untyped
+netstat_tcp_last_ack{host="dbb723d0e9e4"} 0
+# HELP netstat_tcp_listen Telegraf collected metric
+# TYPE netstat_tcp_listen untyped
+netstat_tcp_listen{host="dbb723d0e9e4"} 2
+# HELP netstat_tcp_none Telegraf collected metric
+# TYPE netstat_tcp_none untyped
+netstat_tcp_none{host="dbb723d0e9e4"} 0
+# HELP netstat_tcp_syn_recv Telegraf collected metric
+# TYPE netstat_tcp_syn_recv untyped
+netstat_tcp_syn_recv{host="dbb723d0e9e4"} 0
+# HELP netstat_tcp_syn_sent Telegraf collected metric
+# TYPE netstat_tcp_syn_sent untyped
+netstat_tcp_syn_sent{host="dbb723d0e9e4"} 0
+# HELP netstat_tcp_time_wait Telegraf collected metric
+# TYPE netstat_tcp_time_wait untyped
+netstat_tcp_time_wait{host="dbb723d0e9e4"} 0
+# HELP netstat_udp_socket Telegraf collected metric
+# TYPE netstat_udp_socket untyped
+netstat_udp_socket{host="dbb723d0e9e4"} 1
+# HELP processes_blocked Telegraf collected metric
+# TYPE processes_blocked gauge
+processes_blocked{host="dbb723d0e9e4"} 0
+# HELP processes_dead Telegraf collected metric
+# TYPE processes_dead gauge
+processes_dead{host="dbb723d0e9e4"} 0
+# HELP processes_idle Telegraf collected metric
+# TYPE processes_idle gauge
+processes_idle{host="dbb723d0e9e4"} 79
+# HELP processes_paging Telegraf collected metric
+# TYPE processes_paging gauge
+processes_paging{host="dbb723d0e9e4"} 0
+# HELP processes_running Telegraf collected metric
+# TYPE processes_running gauge
+processes_running{host="dbb723d0e9e4"} 1
+# HELP processes_sleeping Telegraf collected metric
+# TYPE processes_sleeping gauge
+processes_sleeping{host="dbb723d0e9e4"} 105
+# HELP processes_stopped Telegraf collected metric
+# TYPE processes_stopped gauge
+processes_stopped{host="dbb723d0e9e4"} 0
+# HELP processes_total Telegraf collected metric
+# TYPE processes_total gauge
+processes_total{host="dbb723d0e9e4"} 185
+# HELP processes_total_threads Telegraf collected metric
+# TYPE processes_total_threads gauge
+processes_total_threads{host="dbb723d0e9e4"} 406
+# HELP processes_unknown Telegraf collected metric
+# TYPE processes_unknown gauge
+processes_unknown{host="dbb723d0e9e4"} 0
+# HELP processes_zombies Telegraf collected metric
+# TYPE processes_zombies gauge
+processes_zombies{host="dbb723d0e9e4"} 0
+# HELP sensors_in_lcrit_alarm Telegraf collected metric
+# TYPE sensors_in_lcrit_alarm untyped
+sensors_in_lcrit_alarm{chip="rpi_volt-isa-0000",feature="in0",host="dbb723d0e9e4"} 0
+# HELP sensors_temp_crit Telegraf collected metric
+# TYPE sensors_temp_crit untyped
+sensors_temp_crit{chip="cpu_thermal-virtual-0",feature="temp1",host="dbb723d0e9e4"} 110
+# HELP sensors_temp_input Telegraf collected metric
+# TYPE sensors_temp_input untyped
+sensors_temp_input{chip="cpu_thermal-virtual-0",feature="temp1",host="dbb723d0e9e4"} 50.634
+# HELP system_load1 Telegraf collected metric
+# TYPE system_load1 gauge
+system_load1{host="dbb723d0e9e4"} 0.6
+# HELP system_load15 Telegraf collected metric
+# TYPE system_load15 gauge
+system_load15{host="dbb723d0e9e4"} 0.14
+# HELP system_load5 Telegraf collected metric
+# TYPE system_load5 gauge
+system_load5{host="dbb723d0e9e4"} 0.36
+# HELP system_n_cpus Telegraf collected metric
+# TYPE system_n_cpus gauge
+system_n_cpus{host="dbb723d0e9e4"} 4
+# HELP system_uptime Telegraf collected metric
+# TYPE system_uptime counter
+system_uptime{host="dbb723d0e9e4"} 133
