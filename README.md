@@ -13,7 +13,7 @@ This project allows you to monitor the host's CPU, memory, and other metrics in 
 1. Clone the repository:
    ```bash
    git clone <repository-URL>
-   cd host-monitor
+   cd host-monitor 
    ```
 2. Start the services with Docker Compose:
    ```bash
